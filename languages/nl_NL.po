@@ -1,0 +1,831 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Tim <timbruls@infoqus.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ nilmini
+#: 404.php:14
+msgid "Not Found"
+msgstr "Niets Gevonden"
+
+#@ nilmini
+#: 404.php:18
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "Helaas, deze pagina kan helaas niet worden gevonden. Probeer de zoekfunctie."
+
+#@ nilmini
+#: archive.php:21
+msgid "Blog Archives"
+msgstr "Archief"
+
+#@ nilmini
+#: content-aside.php:20
+#: content-audio.php:24
+#: content-chat.php:24
+#: content-gallery.php:57
+#: content-image.php:24
+#: content-link.php:20
+#: content-page.php:16
+#: content-quote.php:20
+#: content-single.php:26
+#: content-status.php:20
+#: content-video.php:24
+#: content.php:35
+msgid "Pages:"
+msgstr "Pagina's:"
+
+#@ nilmini
+#: category.php:12
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Berichten uit de categorie: %s"
+
+#@ nilmini
+#: comments.php:10
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Dit artikel wordt afgeschermd door een wachtwoord. Voer dit wachtwoord in om reacties te kunnen bekijken."
+
+#@ nilmini
+#: comments.php:36
+msgid "&larr; Older Comments"
+msgstr "&larr; eerdere reacties"
+
+#@ nilmini
+#: comments.php:35
+msgid "Newer Comments &rarr;"
+msgstr "latere reacties &rarr;"
+
+#@ nilmini
+#: comments.php:62
+msgid "<p class=\"comment-notes\">Required fields are marked <span class=\"required\">*</span>.</p>"
+msgstr "<p class=\"comment-notes\">Verplichte velden zijn dmv  <span class=\"required\">*</span> gemarkeerd.</p>"
+
+#@ nilmini
+#: content-aside.php:19
+#: content-audio.php:23
+#: content-chat.php:23
+#: content-image.php:23
+#: content-link.php:19
+#: content-quote.php:19
+#: content-status.php:19
+#: content-video.php:23
+#: content.php:34
+msgid "Continue Reading &rarr;"
+msgstr "Lees Verder &rarr;"
+
+#@ nilmini
+#: content-audio.php:13
+#: content-chat.php:13
+#: content-gallery.php:13
+#: content-gallery.php:51
+#: content-image.php:13
+#: content-video.php:13
+#: content.php:14
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink naar %s"
+
+#@ nilmini
+#: functions.php:81
+msgid "Primary Navigation"
+msgstr "Navigatie"
+
+#@ nilmini
+#: header.php:33
+#, php-format
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#@ nilmini
+#: functions.php:187
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "verder lezen <span class=\"meta-nav\">&rarr;</span>"
+
+#@ nilmini
+#: functions.php:242
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#@ nilmini
+#: functions.php:259
+msgid "Your comment is awaiting moderation."
+msgstr "Je reactie moet nog gemodereerd worden"
+
+#@ nilmini
+#: functions.php:270
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#@ nilmini
+#: functions.php:333
+#: functions.php:334
+msgid "Search"
+msgstr "Zoek"
+
+#@ nilmini
+#: search.php:39
+msgid "Nothing Found"
+msgstr "Helaas, niets gevonden. Neem contact met ons op en stel je vraag."
+
+#@ nilmini
+#: search.php:43
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Helaas, er is geen match gevonden voor je zoekcriteria. Probeer het nog eens met andere zoekwoorden of neem contact met ons op."
+
+#@ nilmini
+#: tag.php:15
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Berichten met de tag:  %s"
+
+#@ nilmini
+#: archive.php:15
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Berichten van: <span>%s</span>"
+
+#@ nilmini
+#: archive.php:17
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Bericht uit: <span>%s</span>"
+
+#@ nilmini
+#: archive.php:19
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Berichten uit het jaar: <span>%s</span>"
+
+#@ nilmini
+#: author.php:15
+#, php-format
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr "Alle berichten door: <span class=\"vcard\">%s</span>"
+
+#@ nilmini
+#: functions.php:544
+#: functions.php:680
+msgid "Title:"
+msgstr "Titel:"
+
+#@ nilmini
+#: content-gallery.php:24
+#: content-gallery.php:30
+#: content-gallery.php:47
+msgid "View the pictures &rarr;"
+msgstr "alle afbeeldingen bekijken &rarr;"
+
+#@ nilmini
+#: archive.php:38
+#: author.php:33
+#: category.php:26
+#: index.php:21
+#: search.php:27
+#: tag.php:31
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> oudere berichten"
+
+#@ nilmini
+#: archive.php:39
+#: author.php:34
+#: category.php:27
+#: index.php:22
+#: search.php:28
+#: tag.php:32
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "nieuwere berichten <span class=\"meta-nav\">&rarr;</span>"
+
+#@ nilmini
+#: content-single.php:33
+#, php-format
+msgid "Author: %s"
+msgstr "Auteur: %s"
+
+#@ nilmini
+#: footer.php:45
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "Theme: %1$s door %2$s"
+
+#@ nilmini
+#: includes/theme-options.php:163
+msgid "Custom Link Color"
+msgstr "Afwijkende linkkleur"
+
+#@ default
+#: includes/theme-options.php:223
+msgid "custom_logo"
+msgstr "custom_logo"
+
+#@ nilmini
+#: includes/theme-options.php:224
+msgid "Upload your own logo image"
+msgstr "Upload je eigen logo"
+
+#@ nilmini
+#: comments.php:64
+msgctxt "noun"
+msgid "Message <span class=\"required\">*</span>"
+msgstr "Bericht <span class=\"required\">*</span>"
+
+#@ nilmini
+#: image.php:78
+msgid "&larr; Previous Image"
+msgstr "&larr; vorige afbeelding"
+
+#@ nilmini
+#: image.php:77
+msgid "Next Image &rarr;"
+msgstr "volgende afbeelding &rarr;"
+
+#@ nilmini
+#: includes/theme-options.php:63
+#: includes/theme-options.php:64
+msgid "Theme Options"
+msgstr "Theme Opties"
+
+#@ nilmini
+#: includes/theme-options.php:151
+#, php-format
+msgid "%s Theme Options"
+msgstr "%s Theme Opties"
+
+#@ nilmini
+#: includes/theme-options.php:165
+msgid "Link Color"
+msgstr "Linkkleur"
+
+#@ nilmini
+#: includes/theme-options.php:168
+msgid "Select a Color"
+msgstr "Kies een kleur"
+
+#@ nilmini
+#: includes/theme-options.php:171
+#, php-format
+msgid "Default color: %s"
+msgstr "Standaardkleur: %s"
+
+#@ nilmini
+#: functions.php:253
+#: functions.php:270
+msgid "| Edit &rarr;"
+msgstr " |  Bewerken &rarr;"
+
+#@ nilmini
+#: functions.php:251
+msgid "Reply"
+msgstr "Beantwoorden"
+
+#@ nilmini
+#: comments.php:26
+#, php-format
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 reactie"
+msgstr[1] "%1$s Reacties"
+
+#@ nilmini
+#: comments.php:65
+msgid "Send"
+msgstr "Verzenden"
+
+#@ nilmini
+#: functions.php:82
+msgid "Footer Navigation"
+msgstr "Footer Navigation"
+
+#@ nilmini
+#. translators: 1: date, 2: time
+#: functions.php:247
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s om %2$s"
+
+#@ nilmini
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Reactiemogelijkheid gesloten"
+
+#@ nilmini
+#: functions.php:552
+msgid "Number of photos:"
+msgstr "Aantal afbeeldingen:"
+
+#@ nilmini
+#: functions.php:562
+msgid "User"
+msgstr "Gebruiker"
+
+#@ nilmini
+#: functions.php:563
+msgid "Group"
+msgstr "Groep"
+
+#@ nilmini
+#: functions.php:567
+msgid "Show latest or random pictures:"
+msgstr "Toon nieuwste of random afbeeldingen:"
+
+#@ nilmini
+#: functions.php:569
+msgid "Latest"
+msgstr "Nieuwste"
+
+#@ nilmini
+#: functions.php:570
+msgid "Random"
+msgstr "Random"
+
+#@ nilmini
+#: functions.php:560
+msgid "Choose user or group:"
+msgstr "Kies gebruiker of groep:"
+
+#@ nilmini
+#: footer.php:45
+msgid "Proudly powered by"
+msgstr "Draait op "
+
+#@ nilmini
+#: functions.php:510
+msgid "Flickr Widget"
+msgstr "Flickr Widget"
+
+#@ nilmini
+#: functions.php:548
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\" target=\"_blank\">idGettr</a>):"
+msgstr "Flickr ID (<a href=\"http://www.idgettr.com\" target=\"_blank\">idGettr</a>):"
+
+#@ nilmini
+#: functions.php:588
+msgid "Social Links Widget"
+msgstr "Social Links Widget"
+
+#@ nilmini
+#: functions.php:720
+msgid "Dribbble URL:"
+msgstr "Dribbble URL:"
+
+#@ nilmini
+#: functions.php:690
+msgid "Facebook URL:"
+msgstr "Facebook URL:"
+
+#@ nilmini
+#: functions.php:725
+msgid "Ffffound URL:"
+msgstr "Ffffound URL:"
+
+#@ nilmini
+#: functions.php:700
+msgid "Flickr URL:"
+msgstr "Flickr URL:"
+
+#@ nilmini
+#: functions.php:750
+msgid "Foursquare URL:"
+msgstr "Foursquare URL:"
+
+#@ nilmini
+#: functions.php:755
+msgid "Gowalla URL:"
+msgstr "Gowalla URL:"
+
+#@ nilmini
+#: functions.php:745
+msgid "Grooveshark URL:"
+msgstr "Grooveshark URL:"
+
+#@ nilmini
+#: functions.php:740
+msgid "Last.fm URL:"
+msgstr "Last.fm URL:"
+
+#@ nilmini
+#: functions.php:760
+msgid "Linkedin URL:"
+msgstr "Linkedin URL:"
+
+#@ nilmini
+#: functions.php:705
+msgid "Picasa URL:"
+msgstr "Picasa URL:"
+
+#@ nilmini
+#: functions.php:735
+msgid "Slideshare URL:"
+msgstr "Slideshare URL:"
+
+#@ nilmini
+#: functions.php:775
+msgid "Tumblr URL:"
+msgstr "Tumblr URL:"
+
+#@ nilmini
+#: functions.php:685
+msgid "Twitter URL:"
+msgstr "Twitter URL:"
+
+#@ nilmini
+#: functions.php:715
+msgid "Vimeo URL:"
+msgstr "Vimeo URL:"
+
+#@ nilmini
+#: functions.php:770
+msgid "WordPress URL:"
+msgstr "WordPress URL:"
+
+#@ nilmini
+#: functions.php:765
+msgid "Xing URL:"
+msgstr "Xing URL:"
+
+#@ nilmini
+#: functions.php:710
+msgid "YouTube URL:"
+msgstr "YouTube URL:"
+
+#@ nilmini
+#: functions.php:730
+msgid "Zootool URL:"
+msgstr "Zootool URL:"
+
+#@ nilmini
+#: includes/theme-options.php:220
+msgid "Custom Logo Image"
+msgstr "Eigen Logo"
+
+#@ nilmini
+#: includes/theme-options.php:222
+msgid "Custom Logo image"
+msgstr "Eigen Logo"
+
+#@ nilmini
+#: includes/theme-options.php:224
+msgid " using the WordPress Media Library and then insert the URL here"
+msgstr ", door de WordPress Media Bibliotheek te gebruiken, en dan de URL hier te plaatsen"
+
+#@ nilmini
+#: includes/theme-options.php:256
+#: includes/theme-options.php:258
+msgid "Custom Favicon"
+msgstr "Eigen Favicon"
+
+#@ default
+#: includes/theme-options.php:259
+msgid "custom_favicon"
+msgstr "custom_favicon"
+
+#@ nilmini
+#: includes/theme-options.php:260
+msgid "Create a favicon image e.g. with <a href=\"http://www.faviconr.com/\" target=\"_blank\">Faviconr</a>, upload your .ico Favicon image (via FTP) to your server and enter the Favicon URL here."
+msgstr "Maak eerst een Favicon, bijvoorbeeld met <a href=\"http://www.faviconr.com/\" target=\"_blank\">Faviconr</a>. Upload dit .ico bestand dan (via FTP) naar je server en plaats de link hier."
+
+#@ nilmini
+#: includes/theme-options.php:247
+#: includes/theme-options.php:249
+msgid "Custom Footer text"
+msgstr "Footer Tekst aanpassen"
+
+#@ nilmini
+#: includes/theme-options.php:251
+msgid "Customize the footer credit text. Standard HTML is allowed."
+msgstr "Voer je eigen footer credits in. Standaard HTML is toegestaan."
+
+#@ nilmini
+#: functions.php:695
+msgid "Google+ URL:"
+msgstr "Google+ URL:"
+
+#@ nilmini
+#: functions.php:780
+msgid "RSS-Feed URL:"
+msgstr "RSS-Feed URL:"
+
+#@ nilmini
+#: functions.php:785
+msgid "RSS for Comments URL:"
+msgstr "RSS voor reacties URL:"
+
+#@ nilmini
+#: content-aside.php:15
+#: content-audio.php:19
+#: content-chat.php:19
+#: content-gallery.php:19
+#: content-image.php:19
+#: content-link.php:15
+#: content-quote.php:15
+#: content-single.php:18
+#: content-status.php:15
+#: content-video.php:19
+#: content.php:20
+#: image.php:20
+msgid "0 comments"
+msgstr "0 Reacties"
+
+#@ nilmini
+#: content-aside.php:15
+#: content-audio.php:19
+#: content-chat.php:19
+#: content-gallery.php:19
+#: content-image.php:19
+#: content-link.php:15
+#: content-quote.php:15
+#: content-single.php:18
+#: content-status.php:15
+#: content-video.php:19
+#: content.php:20
+#: image.php:20
+msgid "1 comment"
+msgstr "1 Reactie"
+
+#@ nilmini
+#: content-aside.php:15
+#: content-audio.php:19
+#: content-chat.php:19
+#: content-gallery.php:19
+#: content-image.php:19
+#: content-link.php:15
+#: content-quote.php:15
+#: content-single.php:18
+#: content-status.php:15
+#: content-video.php:19
+#: content.php:20
+#: image.php:20
+msgid "% comments"
+msgstr "% Reacties"
+
+#@ nilmini
+#: content-aside.php:15
+#: content-audio.php:19
+#: content-chat.php:19
+#: content-gallery.php:19
+#: content-image.php:19
+#: content-link.php:15
+#: content-quote.php:15
+#: content-single.php:18
+#: content-status.php:15
+#: content-video.php:19
+#: content.php:20
+#: image.php:20
+msgid "comments off"
+msgstr "Reacties uitgeschakeld"
+
+#@ nilmini
+#: footer.php:47
+msgid "Back to Top &uArr;"
+msgstr "Naar boven &uArr;"
+
+#@ nilmini
+#: functions.php:294
+msgid "Footer Area One"
+msgstr "Footergebied 1"
+
+#@ nilmini
+#: functions.php:296
+msgid "An optional widget area for the left footer column."
+msgstr "Een optioneel widgetgebied voor de linkerkolom van de footer."
+
+#@ nilmini
+#: functions.php:304
+msgid "Footer Area Two"
+msgstr "Footergebied 2"
+
+#@ nilmini
+#: functions.php:306
+msgid "An optional widget area for the middle footer column."
+msgstr "Een optioneel widgetgebied voor de middenkolom van de footer."
+
+#@ nilmini
+#: functions.php:314
+msgid "Footer Area Three"
+msgstr "Footergebied 3"
+
+#@ nilmini
+#: functions.php:316
+msgid "An optional widget area for the right footer column."
+msgstr "Een optioneel widgetgebied voor de rechterkolom van de footer."
+
+#@ nilmini
+#: content-aside.php:13
+#: content-audio.php:17
+#: content-chat.php:17
+#: content-gallery.php:17
+#: content-image.php:17
+#: content-link.php:13
+#: content-quote.php:13
+#: content-single.php:16
+#: content-status.php:13
+#: content-video.php:17
+#: content.php:18
+#: image.php:19
+msgid "Permalink"
+msgstr "Permalink"
+
+#@ nilmini
+#: content-aside.php:14
+#: content-audio.php:18
+#: content-chat.php:18
+#: content-gallery.php:18
+#: content-image.php:18
+#: content-link.php:14
+#: content-quote.php:14
+#: content-single.php:17
+#: content-status.php:14
+#: content-video.php:18
+#: content.php:19
+msgid "Posted by"
+msgstr "Geplaatst door"
+
+#@ nilmini
+#: content-aside.php:30
+#: content-audio.php:34
+#: content-chat.php:34
+#: content-gallery.php:67
+#: content-image.php:34
+#: content-link.php:31
+#: content-quote.php:30
+#: content-single.php:48
+#: content-status.php:30
+#: content-video.php:34
+#: content.php:51
+msgid "Edit post"
+msgstr "Bericht bewerken"
+
+#@ nilmini
+#: content-gallery.php:50
+#, php-format
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>"
+msgstr[0] "De galerie bevat <a %1$s>%2$s Afbeelding</a>."
+msgstr[1] "De galerie bevat <a %1$s>%2$s afbeeldingen</a>"
+
+#@ nilmini
+#: content-page.php:20
+msgid "Edit page"
+msgstr "Pagina bewerken"
+
+#@ nilmini
+#: image.php:23
+#, php-format
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a><br/>in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Geplaatst </span> in <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a><br/>in <a href=\"%6$s\" title=\"Terug naar %7$s\" rel=\"gallery\">%7$s</a>"
+
+#@ nilmini
+#: includes/theme-options.php:80
+msgid "serif"
+msgstr "serif"
+
+#@ nilmini
+#: includes/theme-options.php:85
+msgid "sans-serif"
+msgstr "sans-serif"
+
+#@ nilmini
+#: includes/theme-options.php:176
+#: includes/theme-options.php:178
+msgid "Font Option"
+msgstr "Optie voor lettertype"
+
+#@ nilmini
+#: includes/theme-options.php:229
+msgid "Hide header search form"
+msgstr "Verberg zoekveld in header"
+
+#@ nilmini
+#: includes/theme-options.php:231
+msgid "Deactivate search form in header"
+msgstr "Deactiveer zoekveld in header"
+
+#@ nilmini
+#: includes/theme-options.php:233
+msgid "Check this box to hide the search form in the header."
+msgstr "Vink deze optie aan om het zoekveld in de header te verbergen."
+
+#@ nilmini
+#: includes/theme-options.php:238
+#: includes/theme-options.php:240
+msgid "Custom Header Slogan"
+msgstr "Eventuele slogan voor in de header"
+
+#@ nilmini
+#: includes/theme-options.php:242
+msgid "If you want to show a header slogan text, insert your slogan text here."
+msgstr "Om een slogan in de header te plaatsen, voer hier uw slogan in."
+
+#@ yoko
+#: search.php:14
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#@ bugis
+#: share-posts.php:2
+msgid "Short URL"
+msgstr "Short URL"
+
+#@ nilmini
+#: single.php:22
+msgid "Next Post &rarr;"
+msgstr "Volgend Bericht &rarr;"
+
+#@ nilmini
+#: single.php:23
+msgid "&larr; Previous Post"
+msgstr "&larr; Vorig Bericht"
+
+#@ nilmini
+#: content-aside.php:10
+#: content-audio.php:10
+#: content-chat.php:10
+#: content-gallery.php:10
+#: content-image.php:10
+#: content-link.php:10
+#: content-quote.php:10
+#: content-status.php:10
+#: content-video.php:10
+#: content.php:11
+msgid "<h3 class=\"sticky-label\">Featured</h3>"
+msgstr "<h3 class=\"sticky-label\">Featured</h3>"
+
+#@ nilmini
+#: functions.php:286
+msgid "An optional Social Links widget (to link to your twitter, facebook or Google+ profile) at the top of the header."
+msgstr "Een optionele Social Links Widget bovenin de header. Zo kun je bijvoorbeeld naar je Twitter, Facebook of Google+ profiel linken."
+
+#@ nilmini
+#: includes/theme-options.php:101
+msgid "Posts meta info right"
+msgstr "Meta-info voor bericht rechts plaatsen."
+
+#@ nilmini
+#: includes/theme-options.php:106
+msgid "Posts meta info left"
+msgstr "Meta-info voor bericht links plaatsen."
+
+#@ nilmini
+#: includes/theme-options.php:198
+#: includes/theme-options.php:200
+msgid "Layout Option"
+msgstr "Layout Optie"
+
+#@ nilmini
+#: functions.php:284
+msgid "Header Social Links"
+msgstr "Header Social Links"
+
+#@ nilmini
+#. translators: header image description
+#: functions.php:121
+msgid "Ocean"
+msgstr "Ocean"
+
+#@ nilmini
+#. translators: header image description
+#: functions.php:127
+msgid "Flowers"
+msgstr "Flowers"
+
+#@ nilmini
+#. translators: header image description
+#: functions.php:133
+msgid "City"
+msgstr "City"
+
+#@ nilmini
+#: includes/theme-options.php:265
+#: includes/theme-options.php:267
+msgid "Share post buttons"
+msgstr "Knoppen om bericht te delen."
+
+#@ nilmini
+#: includes/theme-options.php:269
+msgid "Check this box to include a post short URL, Twitter, Facebook and Google+ button on the blogs front page and on single post pages."
+msgstr "Vink deze optie aan om een verkorte URL, een Twitter, Facebook en Google+ knop op de voorpagina van de site en op losse berichtpagina's te plaatsen."
+
+#@ nilmini
+#: includes/theme-options.php:274
+#: includes/theme-options.php:276
+msgid "Share post buttons on single posts only"
+msgstr "Deel-knoppen alleen op individuele berichtpagina's"
+
+#@ nilmini
+#: includes/theme-options.php:278
+msgid "Check this box to include the share post buttons <strong>only</strong> on single post pages."
+msgstr "Vink deze optie aan om bericht-delen knoppen <strong>alleen</strong> op individuele berichtpagina's te plaatsen."
+

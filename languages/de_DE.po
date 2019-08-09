@@ -1,0 +1,776 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nilmini v1.0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-21 08:31+0000\n"
+"PO-Revision-Date: 2018-12-21 08:33+0000\n"
+"Last-Translator: Ellen Bauer <ellen.bauer@elmastudio.de>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"Language: de_DE\n"
+"X-Loco-Version: 2.2.0; wp-5.0.2"
+
+#: includes/theme-options.php:225
+msgid " using the WordPress Media Library and then insert the URL here"
+msgstr ""
+", indem du die WordPress Mediathek nutzt und die Bild URL dann hier "
+"einträgst."
+
+#: content-gallery.php:22 content-single.php:21 content-status.php:18
+#: content-chat.php:23 content.php:23 content-aside.php:19 content-audio.php:23
+#: content-video.php:22 content-quote.php:18 content-link.php:18
+#: content-image.php:22 image.php:22
+#, php-format
+msgid "% comments"
+msgstr "% Kommentare"
+
+#. translators: 1: date, 2: time
+#: functions.php:308
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#: functions.php:303
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: includes/theme-options.php:152
+#, php-format
+msgid "%s Theme Options"
+msgstr "%s Theme Optionen"
+
+#: comments.php:43
+msgid "&larr; Older Comments"
+msgstr "&larr; Ältere Kommentare"
+
+#: image.php:80
+msgid "&larr; Previous Image"
+msgstr "&larr; Vorheriges Bild"
+
+#: single.php:24
+msgid "&larr; Previous Post"
+msgstr "&larr; Vorheriger Artikel"
+
+#: content-gallery.php:22 content-single.php:21 content-status.php:18
+#: content-chat.php:23 content.php:23 content-aside.php:19 content-audio.php:23
+#: content-video.php:22 content-quote.php:18 content-link.php:18
+#: content-image.php:22 image.php:22
+msgid "0 comments"
+msgstr "0 Kommentare"
+
+#: content-gallery.php:22 content-single.php:21 content-status.php:18
+#: content-chat.php:23 content.php:23 content-aside.php:19 content-audio.php:23
+#: content-video.php:22 content-quote.php:18 content-link.php:18
+#: content-image.php:22 image.php:22
+msgid "1 comment"
+msgstr "1 Kommentar"
+
+#: comments.php:31
+#, php-format
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 Kommentar"
+msgstr[1] "%1$s Kommentare"
+
+#: functions.php:940
+msgid "500px URL:"
+msgstr "500px URL:"
+
+#: content-gallery.php:14 content-status.php:14 content-chat.php:15
+#: content.php:14 content-aside.php:14 content-audio.php:15
+#: content-video.php:14 content-quote.php:14 content-link.php:14
+#: content-image.php:14
+msgid "<h3 class=\"sticky-label\">Featured</h3>"
+msgstr "<h3 class=\"sticky-label\">Featured</h3>"
+
+#: comments.php:69
+msgid ""
+"<p class=\"comment-notes\">Required fields are marked <span "
+"class=\"required\">*</span>.</p>"
+msgstr ""
+"<p class=\"comment-notes\">Pflichtfelder sind mit <span class=\"required\">"
+"*</span> markiert.</p>"
+
+#: category.php:29 index.php:24 archive.php:41 tag.php:34 search.php:38
+#: author.php:34
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Artikel"
+
+#: image.php:25
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> at <a "
+"href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s px</a><br/>"
+"in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+"<span class=\"meta-prep meta-prep-entry-date\">Veröffentlicht </span> am <a "
+"href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s px</a><br/>"
+"in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: functions.php:347
+msgid ""
+"An optional Social Links widget (to link to your twitter, facebook or "
+"Google+ profile) at the top of the header."
+msgstr ""
+"Ein optionales Social Links Widget in einer oberen Headerleiste. So kannst "
+"du z.B. auf dein Twitter, Facebook oder Google+ Profil verlinken."
+
+#: functions.php:357
+msgid "An optional widget area for the left footer column."
+msgstr "Ein optionaler Widgetbereich für die linke Footerspalte."
+
+#: functions.php:367
+msgid "An optional widget area for the middle footer column."
+msgstr "Ein optionaler Widgetbereich für die mittlere Footerspalte."
+
+#: functions.php:377
+msgid "An optional widget area for the right footer column."
+msgstr "Ein optionaler Footerbereich für die rechte Footerspalte."
+
+#: 404.php:21
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+"Entschuldigung, aber die Seite konnte leider nicht gefunden werden. "
+"Vielleicht findest du ein Ergebnis über die Suchfunktion."
+
+#: author.php:18
+#, php-format
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr "Alle Artikel von: <span class=\"vcard\">%s</span>"
+
+#: content-single.php:36
+#, php-format
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: footer.php:55
+msgid "Back to Top &uArr;"
+msgstr "Nach oben &uArr;"
+
+#: functions.php:980
+msgid "Behance Network URL:"
+msgstr "Behance Network URL:"
+
+#: functions.php:80
+msgid "black"
+msgstr "schwarz"
+
+#: archive.php:24
+msgid "Blog Archives"
+msgstr "Blogarchiv"
+
+#: category.php:15
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Artikel der Kategorie: %s"
+
+#: includes/theme-options.php:288
+msgid ""
+"Check this box to hide the main navigation sub menus on mobile devices "
+"(tablets and smartphones). With this option your readers can focus mainly on "
+"your latest articles even if they view your site on small screens."
+msgstr ""
+"Wähle diese Option, um Untermenüs auf mobilen Geräten (Tablet PCs und "
+"Smartphones) zu verstecken. Auf diese Weise können deine Leser sich in "
+"erster Linie auf deine neusten Artikel konzentrieren, auch wenn sie deine "
+"Webseite auf einem kleinen Bildschirm anschauen."
+
+#: includes/theme-options.php:234
+msgid "Check this box to hide the search form in the header."
+msgstr "Wähle diese Option, um die Suche im Header zu deaktivieren."
+
+#: includes/theme-options.php:270
+msgid ""
+"Check this box to include a post short URL, Twitter, Facebook and Google+ "
+"button on the blogs front page and on single post pages."
+msgstr ""
+"Wähle diese Option, um eine Kurz-URL, einen Twitter, Facebook und Google+ "
+"Button auf der Blog-Startseite und auf Artikel-Einzelseiten anzuzeigen."
+
+#: includes/theme-options.php:279
+msgid ""
+"Check this box to include the share post buttons <strong>only</strong> on "
+"single post pages."
+msgstr ""
+"Wähle diese Option, um die Teilen-Button nur auf Artikel-Einzelseiten "
+"anzuzeigen."
+
+#: functions.php:629
+msgid "Choose user or group:"
+msgstr "Wähle Person oder Gruppe:"
+
+#. translators: header image description
+#: functions.php:158
+msgid "City"
+msgstr "Stadt"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: content-gallery.php:22 content-single.php:21 content-status.php:18
+#: content-chat.php:23 content.php:23 content-aside.php:19 content-audio.php:23
+#: content-video.php:22 content-quote.php:18 content-link.php:18
+#: content-image.php:22 image.php:22
+msgid "comments off"
+msgstr "Kommentare deaktiviert"
+
+#: content-status.php:22 content-chat.php:27 content.php:38
+#: content-aside.php:23 content-audio.php:27 content-video.php:26
+#: content-quote.php:22 content-link.php:22 content-image.php:26
+msgid "Continue Reading &rarr;"
+msgstr "Weiterlesen &rarr;"
+
+#: functions.php:248
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Weiterlesen <span class=\"meta-nav\">&rarr;</span>"
+
+#: includes/theme-options.php:261
+msgid ""
+"Create a favicon image, upload your .ico Favicon image (via FTP) to your "
+"server and enter the Favicon URL here."
+msgstr ""
+"Erstelle ein Favicon-Bild und lade es mit einem FTP-Upload-Programm auf "
+"deinen Server hoch. Trage die entsprechende Datei-URL hier ein."
+
+#: includes/theme-options.php:257 includes/theme-options.php:259
+msgid "Custom Favicon"
+msgstr "Eigenes Favicon"
+
+#: includes/theme-options.php:248 includes/theme-options.php:250
+msgid "Custom Footer text"
+msgstr "Footer Text anpassen"
+
+#: includes/theme-options.php:239 includes/theme-options.php:241
+msgid "Custom Header Slogan"
+msgstr "Individueller Header Slogan"
+
+#: includes/theme-options.php:164
+msgid "Custom Link Color"
+msgstr "Eigene Linkfarbe"
+
+#: includes/theme-options.php:221
+msgid "Custom Logo Image"
+msgstr "Eigenes Logobild"
+
+#: includes/theme-options.php:223
+msgid "Custom Logo image"
+msgstr "Eigenes Logobild"
+
+#: includes/theme-options.php:252
+msgid "Customize the footer credit text. Standard HTML is allowed."
+msgstr "Trage deinen eigenen Footer-Text ein. Standard HTML-Code ist möglich."
+
+#: archive.php:18
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Artikel am: <span>%s</span>"
+
+#: includes/theme-options.php:232
+msgid "Deactivate search form in header"
+msgstr "Deaktiviere die Suche im Header"
+
+#: includes/theme-options.php:172
+#, php-format
+msgid "Default color: %s"
+msgstr "Standardfarbe: %s"
+
+#: functions.php:945
+msgid "Delicious URL:"
+msgstr "Delicious URL:"
+
+#: functions.php:960
+msgid "Dribbble URL:"
+msgstr "Dribbble URL:"
+
+#: content-page.php:24
+msgid "Edit page"
+msgstr "Seite bearbeiten"
+
+#: content-gallery.php:68 content-single.php:51 content-status.php:33
+#: content-chat.php:39 content.php:54 content-aside.php:35 content-audio.php:39
+#: content-video.php:37 content-quote.php:33 content-link.php:34
+#: content-image.php:38
+msgid "Edit post"
+msgstr "Artikel bearbeiten"
+
+#. Author of the theme
+msgid "Elmastudio"
+msgstr ""
+
+#: functions.php:920
+msgid "Facebook URL:"
+msgstr "Facebook URL:"
+
+#: functions.php:965
+msgid "Ffffound URL:"
+msgstr "Ffffound URL:"
+
+#: functions.php:617
+msgid "Flickr ID:"
+msgstr ""
+
+#: functions.php:930
+msgid "Flickr URL:"
+msgstr "Flickr URL:"
+
+#: functions.php:576
+msgid "Flickr Widget"
+msgstr "Flickr Widget"
+
+#. translators: header image description
+#: functions.php:152
+msgid "Flowers"
+msgstr "Blumen"
+
+#: includes/theme-options.php:177 includes/theme-options.php:179
+msgid "Font Option"
+msgstr "Schrift Option"
+
+#: functions.php:355
+msgid "Footer Area One"
+msgstr "1. Footerbereich"
+
+#: functions.php:375
+msgid "Footer Area Three"
+msgstr "3. Footerbereich"
+
+#: functions.php:365
+msgid "Footer Area Two"
+msgstr "2. Footerbereich"
+
+#: functions.php:113
+msgid "Footer Navigation"
+msgstr "Footer-Navigation"
+
+#: functions.php:1010
+msgid "Foursquare URL:"
+msgstr "Foursquare URL:"
+
+#: functions.php:925
+msgid "Google+ URL:"
+msgstr "Google+ URL:"
+
+#: functions.php:1015
+msgid "Gowalla URL:"
+msgstr "Gowalla URL:"
+
+#: functions.php:1000
+msgid "Grooveshark URL:"
+msgstr "Grooveshark URL:"
+
+#: functions.php:632
+msgid "Group"
+msgstr "Gruppe"
+
+#: functions.php:345
+msgid "Header Social Links"
+msgstr "Header Social Links"
+
+#: includes/theme-options.php:230
+msgid "Hide header search form"
+msgstr "Suchformular im Header löschen"
+
+#: includes/theme-options.php:284 includes/theme-options.php:286
+msgid "Hide sub menus on mobile devices"
+msgstr "Verstecke Untermenüs auf mobilen Geräten"
+
+#. Author URI of the theme
+msgid "https://www.elmastudio.de/en/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.elmastudio.de/en/themes/nilmini/"
+msgstr ""
+
+#: includes/theme-options.php:243
+msgid "If you want to show a header slogan text, insert your slogan text here."
+msgstr ""
+"Um den optionalen Header Slogan zu nutzen, trage hier deinen eigenen "
+"Slogantext ein."
+
+#: functions.php:65
+msgid "L"
+msgstr ""
+
+#: functions.php:64
+msgid "large"
+msgstr "groß"
+
+#: functions.php:70
+msgid "larger"
+msgstr "größer"
+
+#: functions.php:995
+msgid "Last.fm URL:"
+msgstr "Last.fm URL:"
+
+#: functions.php:638
+msgid "Latest"
+msgstr "Neuste"
+
+#: includes/theme-options.php:199 includes/theme-options.php:201
+msgid "Layout Option"
+msgstr "Layout Option"
+
+#: functions.php:90
+msgid "light grey"
+msgstr "hellgrau"
+
+#: includes/theme-options.php:166
+msgid "Link Color"
+msgstr "Linkfarbe"
+
+#: functions.php:657
+msgid "Link to your social profiles."
+msgstr "Links zu deinen sozialen Profilen."
+
+#: functions.php:1020
+msgid "Linkedin URL:"
+msgstr "Linkedin URL:"
+
+#: functions.php:59
+msgid "M"
+msgstr ""
+
+#: archive.php:20
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Artikel im: <span>%s</span>"
+
+#: comments.php:42
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &rarr;"
+
+#: category.php:30 index.php:25 archive.php:42 tag.php:35 search.php:39
+#: author.php:35
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Artikel <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:79
+msgid "Next Image &rarr;"
+msgstr "Nächstes Bild &rarr;"
+
+#: single.php:23
+msgid "Next Post &rarr;"
+msgstr "Nächster Artikel &rarr;"
+
+#. Name of the theme
+msgid "Nilmini"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Nilmini is a modern, minimalistic blog theme with responsive web design. So "
+"when your visitors view your blog on their tablet pc or smartphone the theme "
+"adapts automatically to the different screen sizes. Nilmini has a clean "
+"layout and is very easy to setup and customize. Within the theme options you "
+"can change the background and link color, choose a header image or an intro "
+"slogan. In the header you can show links to your social profiles and the "
+"footer has three optional widget columns. To make blogging even more "
+"flexible and fun Nilmini also supports all WordPress post formats."
+msgstr ""
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "Nichts gefunden"
+
+#: search.php:51
+msgid "Nothing Found"
+msgstr "Keine Einträge gefunden"
+
+#: comments.php:71
+msgctxt "noun"
+msgid "Message <span class=\"required\">*</span>"
+msgstr "Nachricht <span class=\"required\">*</span>"
+
+#: functions.php:621
+msgid "Number of photos:"
+msgstr "Anzahl von Bildern:"
+
+#. translators: header image description
+#: functions.php:146
+msgid "Ocean"
+msgstr "Ozean"
+
+#: functions.php:1050
+msgid "Open all links in a new browser tab"
+msgstr "Öffne alle Links in einem neuen Browser-Tab"
+
+#: content-gallery.php:57 content-single.php:29 content-status.php:23
+#: content-page.php:20 content-chat.php:28 content.php:39 content-aside.php:24
+#: content-audio.php:28 content-video.php:27 content-quote.php:23
+#: content-link.php:23 content-image.php:27
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: content-gallery.php:20 content-single.php:19 content-status.php:16
+#: content-chat.php:21 content.php:21 content-aside.php:17 content-audio.php:21
+#: content-video.php:20 content-quote.php:16 content-link.php:16
+#: content-image.php:20 image.php:21
+msgid "Permalink"
+msgstr "Permalink"
+
+#: content-gallery.php:16 content-gallery.php:51 content-chat.php:17
+#: content.php:17 content-audio.php:17 content-video.php:16
+#: content-image.php:16
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink zu %s"
+
+#: functions.php:935
+msgid "Picasa URL:"
+msgstr "Picasa URL:"
+
+#: functions.php:331
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:970
+msgid "Pinterest URL:"
+msgstr "Pinterest URL:"
+
+#: content-gallery.php:21 content-single.php:20 content-status.php:17
+#: content-chat.php:22 content.php:22 content-aside.php:18 content-audio.php:22
+#: content-video.php:21 content-quote.php:17 content-link.php:17
+#: content-image.php:21
+msgid "Posted by"
+msgstr "Veröffentlicht von"
+
+#: includes/theme-options.php:107
+msgid "Posts meta info left"
+msgstr "Artikel Meta-Info links"
+
+#: includes/theme-options.php:102
+msgid "Posts meta info right"
+msgstr "Artikel Meta-Info rechts"
+
+#: functions.php:112
+msgid "Primary Navigation"
+msgstr "Hauptnavigation"
+
+#: footer.php:52
+msgid "Proudly powered by"
+msgstr "Proudly powered by"
+
+#: functions.php:639
+msgid "Random"
+msgstr "Zufällige"
+
+#: functions.php:95
+msgid "red"
+msgstr "rot"
+
+#: functions.php:58
+msgid "regular"
+msgstr "regulär"
+
+#: functions.php:312
+msgid "Reply"
+msgstr "Antworten"
+
+#: functions.php:1045
+msgid "RSS for Comments URL:"
+msgstr "RSS für Kommentare URL:"
+
+#: functions.php:1040
+msgid "RSS-Feed URL:"
+msgstr "RSS-Feed URL:"
+
+#: functions.php:53
+msgid "S"
+msgstr ""
+
+#: includes/theme-options.php:86
+msgid "sans-serif"
+msgstr "serifenlose Schrift"
+
+#: functions.php:394 functions.php:395
+msgid "Search"
+msgstr "Suche"
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: includes/theme-options.php:169
+msgid "Select a Color"
+msgstr "Wähle eine Farbe"
+
+#: comments.php:72
+msgid "Send"
+msgstr "Senden"
+
+#: includes/theme-options.php:81
+msgid "serif"
+msgstr "Serifenschrift"
+
+#: includes/theme-options.php:266 includes/theme-options.php:268
+msgid "Share post buttons"
+msgstr "Artikel-Teilen Button"
+
+#: includes/theme-options.php:275 includes/theme-options.php:277
+msgid "Share post buttons on single posts only"
+msgstr "Teilen-Buttons nur auf Artikel-Einzelseiten"
+
+#: share-posts.php:12
+msgid "Short URL"
+msgstr "Kurz URL"
+
+#: functions.php:1068
+msgid "Show a custom featured video."
+msgstr ""
+
+#: functions.php:636
+msgid "Show latest or random pictures:"
+msgstr "Zeige neuste oder zufällige Bilder:"
+
+#: functions.php:578
+msgid "Show preview images from a flickr account or group"
+msgstr "Zeige Vorschaubilder eines Flickr Kontos oder einer Gruppe"
+
+#: functions.php:990
+msgid "Slideshare URL:"
+msgstr "Slideshare URL:"
+
+#: functions.php:52
+msgid "small"
+msgstr "klein"
+
+#: functions.php:655
+msgid "Social Links Widget"
+msgstr "Social Links Widget"
+
+#: search.php:55
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Entschuldigung, leider wurde zu deiner Suchanfrage kein Eintrag gefunden. "
+"Bitte versuche es noch einmal mit anderen Schlagwörtern."
+
+#: functions.php:1005
+msgid "Soundcloud URL:"
+msgstr "Soundcloud URL:"
+
+#: functions.php:985
+msgid "Squidoo URL:"
+msgstr "Squidoo URL:"
+
+#: tag.php:18
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Artikel zum Schlagwort:  %s"
+
+#: includes/theme-options.php:64 includes/theme-options.php:65
+msgid "Theme Options"
+msgstr "Theme Optionen"
+
+#: footer.php:52
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "Theme: %1$s von %2$s"
+
+#: content-gallery.php:50
+#, php-format
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>"
+msgstr[0] "Die Galerie enthält <a %1$s>%2$s Bilder</a>."
+msgstr[1] "Die Galerie enthält <a %1$s>%2$s Bilder</a>"
+
+#: comments.php:13
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Dieser Artikel ist Passwort geschützt. Trage das Passwort ein, um die "
+"Kommentare zu sehen."
+
+#: functions.php:613 functions.php:910 functions.php:1099
+msgid "Title:"
+msgstr "Titel:"
+
+#: functions.php:1035
+msgid "Tumblr URL:"
+msgstr "Tumblr URL:"
+
+#: functions.php:915
+msgid "Twitter URL:"
+msgstr "Twitter URL:"
+
+#: includes/theme-options.php:225
+msgid "Upload your own logo image"
+msgstr "Lade dein eigenes Logobild hoch"
+
+#: functions.php:631
+msgid "User"
+msgstr "Person"
+
+#: functions.php:1104
+msgid "Video embed code:"
+msgstr "Video Einbettungscode:"
+
+#: functions.php:1066
+msgid "Video Widget"
+msgstr "Video Widget"
+
+#: content-gallery.php:29 content-gallery.php:46
+msgid "View the pictures &rarr;"
+msgstr "Alle Bilder anschauen &rarr;"
+
+#: functions.php:955
+msgid "Vimeo URL:"
+msgstr "Vimeo URL:"
+
+#: functions.php:85
+msgid "white"
+msgstr ""
+
+#: functions.php:1030
+msgid "WordPress URL:"
+msgstr "WordPress URL:"
+
+#: functions.php:1025
+msgid "Xing URL:"
+msgstr "Xing URL:"
+
+#: functions.php:71
+msgid "XL"
+msgstr ""
+
+#: archive.php:22
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Artikel des Jahres: <span>%s</span>"
+
+#: functions.php:320
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar befindet sich in Moderation."
+
+#: functions.php:950
+msgid "YouTube URL:"
+msgstr "YouTube URL:"
+
+#: functions.php:975
+msgid "Zootool URL:"
+msgstr "Zootool URL:"
+
+#: functions.php:314 functions.php:331
+msgid "| Edit &rarr;"
+msgstr " |  Bearbeiten &rarr;"
