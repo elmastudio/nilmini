@@ -47,56 +47,10 @@ function nilmini() {
 	add_theme_support( 'responsive-embeds' );
 
 	// Add support for editor font sizes.
-	add_theme_support( 'editor-font-sizes', array(
-		array(
-			'name' => __( 'small', 'nilmini' ),
-			'shortName' => __( 'S', 'nilmini' ),
-			'size' => 15,
-			'slug' => 'small'
-		),
-		array(
-			'name' => __( 'regular', 'nilmini' ),
-			'shortName' => __( 'M', 'nilmini' ),
-			'size' => 17,
-			'slug' => 'regular'
-		),
-		array(
-			'name' => __( 'large', 'nilmini' ),
-			'shortName' => __( 'L', 'nilmini' ),
-			'size' => 21,
-			'slug' => 'large'
-		),
-		array(
-			'name' => __( 'larger', 'nilmini' ),
-			'shortName' => __( 'XL', 'nilmini' ),
-			'size' => 25,
-			'slug' => 'larger'
-		)
-	) );
+
 
 	// Add editor color palette.
-	add_theme_support( 'editor-color-palette', array(
-		array(
-			'name' => __( 'black', 'nilmini' ),
-			'slug' => 'black',
-			'color' => '#000000',
-		),
-		array(
-			'name' => __( 'white', 'nilmini' ),
-			'slug' => 'white',
-			'color' => '#ffffff',
-		),
-		array(
-			'name' => __( 'light grey', 'nilmini' ),
-			'slug' => 'light-grey',
-			'color' => '#f0f0f0',
-		),
-		array(
-			'name' => __( 'red', 'nilmini' ),
-			'slug' => 'red',
-			'color' => '#E84D38',
-		),
-	) );
+
 
 	// This theme uses post thumbnails
 	add_theme_support( 'post-thumbnails' );
@@ -108,10 +62,7 @@ function nilmini() {
 	add_theme_support( 'title-tag' );
 
 	// This theme uses wp_nav_menu() in one location.
-	register_nav_menus( array(
-		'primary' => __( 'Primary Navigation', 'nilmini' ),
-		'footer' => __( 'Footer Navigation', 'nilmini' )
-	) );
+
 
 	// Add support for Post Formats
 	add_theme_support( 'post-formats', array( 'aside', 'status', 'link', 'quote', 'chat', 'image', 'gallery', 'video', 'audio' ) );
@@ -637,7 +588,6 @@ class nilmini_flickr extends WP_Widget {
 	}
 }
 
-register_widget('nilmini_flickr');
 
 /*-----------------------------------------------------------------------------------*/
 /* Including a custom Social Media Widget
@@ -1048,7 +998,6 @@ register_widget('nilmini_flickr');
 	}
 }
 
-register_widget('nilmini_sociallinks');
 
 /*-----------------------------------------------------------------------------------*/
 /* Include a custom Video Widget
@@ -1103,4 +1052,80 @@ class nilmini_video extends WP_Widget {
 	}
 }
 
-register_widget('nilmini_video');
+
+/**
+ * Registrations that carry translated labels.
+ *
+ * WordPress 6.7 loads translations at init, so a __() call during
+ * after_setup_theme is too early and logs a notice on every request.
+ * These moved out of the setup function unchanged; only the hook differs.
+ */
+function nilmini_i18n_setup() {
+	add_theme_support( 'editor-font-sizes', array(
+		array(
+			'name' => __( 'small', 'nilmini' ),
+			'shortName' => __( 'S', 'nilmini' ),
+			'size' => 15,
+			'slug' => 'small'
+		),
+		array(
+			'name' => __( 'regular', 'nilmini' ),
+			'shortName' => __( 'M', 'nilmini' ),
+			'size' => 17,
+			'slug' => 'regular'
+		),
+		array(
+			'name' => __( 'large', 'nilmini' ),
+			'shortName' => __( 'L', 'nilmini' ),
+			'size' => 21,
+			'slug' => 'large'
+		),
+		array(
+			'name' => __( 'larger', 'nilmini' ),
+			'shortName' => __( 'XL', 'nilmini' ),
+			'size' => 25,
+			'slug' => 'larger'
+		)
+	) );
+
+	add_theme_support( 'editor-color-palette', array(
+		array(
+			'name' => __( 'black', 'nilmini' ),
+			'slug' => 'black',
+			'color' => '#000000',
+		),
+		array(
+			'name' => __( 'white', 'nilmini' ),
+			'slug' => 'white',
+			'color' => '#ffffff',
+		),
+		array(
+			'name' => __( 'light grey', 'nilmini' ),
+			'slug' => 'light-grey',
+			'color' => '#f0f0f0',
+		),
+		array(
+			'name' => __( 'red', 'nilmini' ),
+			'slug' => 'red',
+			'color' => '#E84D38',
+		),
+	) );
+
+	register_nav_menus( array(
+		'primary' => __( 'Primary Navigation', 'nilmini' ),
+		'footer' => __( 'Footer Navigation', 'nilmini' )
+	) );
+}
+add_action( 'init', 'nilmini_i18n_setup' );
+
+/**
+ * Registered on widgets_init, which is where WordPress asks for it. At file
+ * scope each widget's constructor translated its own name before init, which
+ * WordPress 6.7 reports on every request.
+ */
+function nilmini_register_widgets() {
+	register_widget( 'nilmini_flickr' );
+	register_widget( 'nilmini_sociallinks' );
+	register_widget( 'nilmini_video' );
+}
+add_action( 'widgets_init', 'nilmini_register_widgets' );
