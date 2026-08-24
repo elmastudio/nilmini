@@ -349,7 +349,7 @@ function nilmini_theme_options_validate( $input ) {
 
 function nilmini_print_link_color_style() {
 	$options = nilmini_get_theme_options();
-	$link_color = $options['link_color'];
+	$link_color = isset( $options['link_color'] ) ? $options['link_color'] : '';
 
 	$default_options = nilmini_get_default_theme_options();
 
@@ -379,7 +379,7 @@ add_action( 'wp_head', 'nilmini_print_link_color_style' );
 
 function nilmini_print_font_style() {
 	$options = nilmini_get_theme_options();
-	$theme_fonts = $options['theme_fonts'];
+	$theme_fonts = isset( $options['theme_fonts'] ) ? $options['theme_fonts'] : '';
 
 	$default_options = nilmini_get_default_theme_options();
 
@@ -411,7 +411,7 @@ add_action( 'wp_head', 'nilmini_print_font_style' );
 
 function nilmini_print_hide_submenus_style() {
 	$options = nilmini_get_theme_options();
-	$hide_submenus = $options['hide_submenus'];
+	$hide_submenus = isset( $options['hide_submenus'] ) ? $options['hide_submenus'] : '';
 
 		$default_options = nilmini_get_default_theme_options();
 
@@ -441,7 +441,7 @@ add_action( 'wp_head', 'nilmini_print_hide_submenus_style' );
 
 function nilmini_layout_classes( $existing_classes ) {
 	$options = nilmini_get_theme_options();
-	$current_layout = $options['theme_layout'];
+	$current_layout = isset( $options['theme_layout'] ) ? $options['theme_layout'] : '';
 
 	if ( in_array( $current_layout, array( 'meta-right', 'meta-left' ) ) )
 		$classes = array( 'two-column' );

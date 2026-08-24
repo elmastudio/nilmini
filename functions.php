@@ -575,11 +575,11 @@ class nilmini_flickr extends WP_Widget {
 
 	function widget($args, $instance) {
 		extract( $args );
-		$title = $instance['title'];
-		$id = $instance['id'];
-		$number = $instance['number'];
-		$type = $instance['type'];
-		$sorting = $instance['sorting'];
+		$title = isset( $instance['title'] ) ? $instance['title'] : '';
+		$id = isset( $instance['id'] ) ? $instance['id'] : '';
+		$number = isset( $instance['number'] ) ? $instance['number'] : '';
+		$type = isset( $instance['type'] ) ? $instance['type'] : '';
+		$sorting = isset( $instance['sorting'] ) ? $instance['sorting'] : '';
 
 		echo $before_widget; ?>
 		<?php if($title != '')
@@ -654,35 +654,35 @@ register_widget('nilmini_flickr');
 
 	function widget($args, $instance) {
 		extract( $args );
-		$title = $instance['title'];
-		$twitter = $instance['twitter'];
-		$facebook = $instance['facebook'];
-		$googleplus = $instance['googleplus'];
-		$flickr = $instance['flickr'];
-		$picasa = $instance['picasa'];
-		$fivehundredpx = $instance['fivehundredpx'];
-		$delicious = $instance['delicious'];
-		$youtube = $instance['youtube'];
-		$vimeo = $instance['vimeo'];
-		$dribbble = $instance['dribbble'];
-		$ffffound = $instance['ffffound'];
-		$pinterest = $instance['pinterest'];
-		$zootool = $instance['zootool'];
-		$behance = $instance['behance'];
-		$squidoo = $instance['squidoo'];
-		$slideshare = $instance['slideshare'];
-		$lastfm = $instance['lastfm'];
-		$grooveshark = $instance['grooveshark'];
-		$soundcloud = $instance['soundcloud'];
-		$foursquare = $instance['foursquare'];
-		$gowalla = $instance['gowalla'];
-		$linkedin = $instance['linkedin'];
-		$xing = $instance['xing'];
-		$wordpress = $instance['wordpress'];
-		$tumblr = $instance['tumblr'];
-		$rss = $instance['rss'];
-		$rsscomments = $instance['rsscomments'];
-		$target = $instance['target'];
+		$title = isset( $instance['title'] ) ? $instance['title'] : '';
+		$twitter = isset( $instance['twitter'] ) ? $instance['twitter'] : '';
+		$facebook = isset( $instance['facebook'] ) ? $instance['facebook'] : '';
+		$googleplus = isset( $instance['googleplus'] ) ? $instance['googleplus'] : '';
+		$flickr = isset( $instance['flickr'] ) ? $instance['flickr'] : '';
+		$picasa = isset( $instance['picasa'] ) ? $instance['picasa'] : '';
+		$fivehundredpx = isset( $instance['fivehundredpx'] ) ? $instance['fivehundredpx'] : '';
+		$delicious = isset( $instance['delicious'] ) ? $instance['delicious'] : '';
+		$youtube = isset( $instance['youtube'] ) ? $instance['youtube'] : '';
+		$vimeo = isset( $instance['vimeo'] ) ? $instance['vimeo'] : '';
+		$dribbble = isset( $instance['dribbble'] ) ? $instance['dribbble'] : '';
+		$ffffound = isset( $instance['ffffound'] ) ? $instance['ffffound'] : '';
+		$pinterest = isset( $instance['pinterest'] ) ? $instance['pinterest'] : '';
+		$zootool = isset( $instance['zootool'] ) ? $instance['zootool'] : '';
+		$behance = isset( $instance['behance'] ) ? $instance['behance'] : '';
+		$squidoo = isset( $instance['squidoo'] ) ? $instance['squidoo'] : '';
+		$slideshare = isset( $instance['slideshare'] ) ? $instance['slideshare'] : '';
+		$lastfm = isset( $instance['lastfm'] ) ? $instance['lastfm'] : '';
+		$grooveshark = isset( $instance['grooveshark'] ) ? $instance['grooveshark'] : '';
+		$soundcloud = isset( $instance['soundcloud'] ) ? $instance['soundcloud'] : '';
+		$foursquare = isset( $instance['foursquare'] ) ? $instance['foursquare'] : '';
+		$gowalla = isset( $instance['gowalla'] ) ? $instance['gowalla'] : '';
+		$linkedin = isset( $instance['linkedin'] ) ? $instance['linkedin'] : '';
+		$xing = isset( $instance['xing'] ) ? $instance['xing'] : '';
+		$wordpress = isset( $instance['wordpress'] ) ? $instance['wordpress'] : '';
+		$tumblr = isset( $instance['tumblr'] ) ? $instance['tumblr'] : '';
+		$rss = isset( $instance['rss'] ) ? $instance['rss'] : '';
+		$rsscomments = isset( $instance['rsscomments'] ) ? $instance['rsscomments'] : '';
+		$target = isset( $instance['target'] ) ? $instance['target'] : '';
 
 
 		echo $before_widget; ?>
@@ -1065,8 +1065,8 @@ class nilmini_video extends WP_Widget {
 
 	function widget($args, $instance) {
 		extract( $args );
-		$title = $instance['title'];
-		$embedcode = $instance['embedcode'];
+		$title = isset( $instance['title'] ) ? $instance['title'] : '';
+		$embedcode = isset( $instance['embedcode'] ) ? $instance['embedcode'] : '';
 
 		echo $before_widget; ?>
 		<?php if($title != '')
