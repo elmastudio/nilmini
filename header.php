@@ -27,7 +27,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
 	$options = get_option('nilmini_theme_options');
-	if( $options['custom_favicon'] != '' ) : ?>
+	if ( ! empty( $options['custom_favicon'] ) ) : ?>
 <link rel="shortcut icon" type="image/ico" href="<?php echo $options['custom_favicon']; ?>" />
 
 <?php endif  ?>
@@ -65,7 +65,7 @@
 			<hgroup id="site-title">
 				<?php
 					$options = get_option('nilmini_theme_options');
-					if( $options['custom_logo'] != '' ) : ?>
+					if ( ! empty( $options['custom_logo'] ) ) : ?>
 					<a href="<?php echo home_url( '/' ); ?>" class="logo"><img src="<?php echo $options['custom_logo']; ?>" alt="<?php bloginfo('name'); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a>
 				<?php else: ?>
 					<h1><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
@@ -75,7 +75,7 @@
 
 			<?php // Display a search form in header
 			$options = get_option('nilmini_theme_options');
-			if( $options['header_search'] == 0 ) : ?>
+			if( empty( $options['header_search'] ) ) : ?>
 				<?php get_search_form(); ?>
 			<?php endif; ?>
 		</div><!-- end branding -->
@@ -103,7 +103,7 @@
 
 			<?php
 			$options = get_option('nilmini_theme_options');
-			if( $options['custom_headerslogan'] != '' ) : ?>
+			if ( ! empty( $options['custom_headerslogan'] ) ) : ?>
 			<div id="header-slogan"><p><?php echo $options['custom_headerslogan']; ?></p></div><!-- end header-slogan -->
 			<?php endif  ?>
 

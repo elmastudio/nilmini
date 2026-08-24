@@ -53,7 +53,7 @@
 
 			<?php // Share post buttons (short URL, Twitter, Facebook Like, Google+). Activated on theme options page.
 			$options = get_option('nilmini_theme_options');
-			if($options['share-single-posts'] or $options['share-posts']) : ?>
+			if ( ! empty( $options['share-single-posts'] ) || ! empty( $options['share-posts'] ) ) : ?>
 				<?php get_template_part( 'share-posts'); ?>
 			<?php endif; ?>
 		</footer><!-- end cat-tags -->

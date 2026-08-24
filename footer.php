@@ -41,7 +41,7 @@
 
 			<?php
 				$options = get_option('nilmini_theme_options');
-				if($options['custom_footertext'] != '' ){
+				if ( ! empty( $options['custom_footertext'] ) ){
 					echo stripslashes($options['custom_footertext']);
 				} else { ?>
 					<p>&copy; <?php echo date('Y'); ?> <?php bloginfo(); ?>  | <?php
@@ -59,7 +59,7 @@
 
 <?php // Include Tweet button Google+ button scripts if share-post buttons are activated (via theme options page).
 $options = get_option('nilmini_theme_options');
-if($options['share-single-posts'] or $options['share-posts']) : ?>
+if ( ! empty( $options['share-single-posts'] ) || ! empty( $options['share-posts'] ) ) : ?>
 <script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
 <script type="text/javascript">
 	(function() {
