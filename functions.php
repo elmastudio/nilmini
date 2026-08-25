@@ -525,6 +525,7 @@ class nilmini_flickr extends WP_Widget {
 	}
 
 	function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => null, 'id' => null, 'number' => null, 'type' => null, 'sorting' => null ) );
 		extract( $args );
 		$title = isset( $instance['title'] ) ? $instance['title'] : '';
 		$id = isset( $instance['id'] ) ? $instance['id'] : '';
@@ -547,6 +548,7 @@ class nilmini_flickr extends WP_Widget {
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'id' => '', 'number' => '', 'type' => '', 'sorting' => '' ) );
 		$title = esc_attr($instance['title']);
 		$id = esc_attr($instance['id']);
 		$number = esc_attr($instance['number']);
@@ -603,6 +605,7 @@ class nilmini_flickr extends WP_Widget {
 	}
 
 	function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => null, 'twitter' => null, 'facebook' => null, 'googleplus' => null, 'flickr' => null, 'picasa' => null, 'fivehundredpx' => null, 'delicious' => null, 'youtube' => null, 'vimeo' => null, 'dribbble' => null, 'ffffound' => null, 'pinterest' => null, 'zootool' => null, 'behance' => null, 'squidoo' => null, 'slideshare' => null, 'lastfm' => null, 'grooveshark' => null, 'soundcloud' => null, 'foursquare' => null, 'gowalla' => null, 'linkedin' => null, 'xing' => null, 'wordpress' => null, 'tumblr' => null, 'rss' => null, 'rsscomments' => null, 'target' => null ) );
 		extract( $args );
 		$title = isset( $instance['title'] ) ? $instance['title'] : '';
 		$twitter = isset( $instance['twitter'] ) ? $instance['twitter'] : '';
@@ -818,6 +821,7 @@ class nilmini_flickr extends WP_Widget {
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'twitter' => '', 'facebook' => '', 'googleplus' => '', 'flickr' => '', 'picasa' => '', 'fivehundredpx' => '', 'delicious' => '', 'youtube' => '', 'vimeo' => '', 'dribbble' => '', 'ffffound' => '', 'pinterest' => '', 'zootool' => '', 'behance' => '', 'squidoo' => '', 'slideshare' => '', 'lastfm' => '', 'grooveshark' => '', 'soundcloud' => '', 'foursquare' => '', 'gowalla' => '', 'linkedin' => '', 'xing' => '', 'wordpress' => '', 'tumblr' => '', 'rss' => '', 'rsscomments' => '', 'target' => '' ) );
 		$title = esc_attr($instance['title']);
 		$twitter = esc_attr($instance['twitter']);
 		$facebook = esc_attr($instance['facebook']);
@@ -1013,6 +1017,7 @@ class nilmini_video extends WP_Widget {
 	}
 
 	function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => null, 'embedcode' => null ) );
 		extract( $args );
 		$title = isset( $instance['title'] ) ? $instance['title'] : '';
 		$embedcode = isset( $instance['embedcode'] ) ? $instance['embedcode'] : '';
@@ -1034,6 +1039,7 @@ class nilmini_video extends WP_Widget {
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'embedcode' => '' ) );
 		$title = esc_attr($instance['title']);
 		$embedcode = esc_attr($instance['embedcode']);
 		?>
@@ -1129,3 +1135,14 @@ function nilmini_register_widgets() {
 	register_widget( 'nilmini_video' );
 }
 add_action( 'widgets_init', 'nilmini_register_widgets' );
+
+/* __php8_option_defaults: never let the theme options be false or miss a key (PHP 8). */
+function nilmini_php8_option_defaults( $options = array() ) {
+	$fallback = array_fill_keys( array( 'share-posts', 'custom_footertext', 'share-single-posts', 'link_color', 'theme_fonts', 'theme_layout', 'custom_logo', 'header_search', 'custom_headerslogan', 'custom_favicon', 'hide_submenus' ), '' );
+	if ( function_exists( 'nilmini_get_default_theme_options' ) ) {
+		$fallback = array_merge( $fallback, (array) nilmini_get_default_theme_options() );
+	}
+	return wp_parse_args( is_array( $options ) ? $options : array(), $fallback );
+}
+add_filter( 'default_option_nilmini_theme_options', 'nilmini_php8_option_defaults' );
+add_filter( 'option_nilmini_theme_options', 'nilmini_php8_option_defaults' );
