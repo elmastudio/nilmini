@@ -9,6 +9,10 @@ Please ask all theme questions in our theme support forum: https://elmastudio.ti
 
 Changelog:
 
+Version 1.0.8 (04/09/2026)
+-----------------------------------------------------------------------------------------------------------------------------
+- Fix: Comments were not displayed since WordPress 5.5 changed the comment type from an empty string to "comment". Thanks to the contributors who reported and fixed this on GitHub.
+
 Version 1.0.7 (25/08/2026)
 -----------------------------------------------------------------------------------------------------------------------------
 - Fix: PHP 8 compatibility. Theme options and widget settings no longer trigger warnings; attachment pages, related posts and comment display fixed where affected.
