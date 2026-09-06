@@ -7,6 +7,9 @@ For the detailed theme documentation visit:
 Please ask all theme questions in our theme support forum: https://elmastudio.ticksy.com/
 ------------------------------------------------------------------------------------------------------------
 
+Updates:
+Install the Git Updater plugin (https://git-updater.com/) and WordPress will offer new versions of this theme as regular theme updates, straight from GitHub.
+
 Changelog:
 
 Version 1.0.8 (04/09/2026)
