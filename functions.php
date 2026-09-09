@@ -334,7 +334,7 @@ function nilmini_widgets_init() {
 	) );
 
 }
-add_action( 'init', 'nilmini_widgets_init' );
+add_action( 'widgets_init', 'nilmini_widgets_init' );
 
 /*-----------------------------------------------------------------------------------*/
 /* Customized Nilmini search form
